@@ -1,0 +1,12 @@
+<div id="question">
+  <div id="other-box">
+    <h1 id="box"><%= @question %><h2>-You</h2></h1>
+  </div>
+  <br>
+  <div id="other-box">
+    <h1 id="box"><%= @answer %><h2>-Coach Steve</h2></h1>
+  </div>
+  <form action="/ask" method= "get">
+    <input type="submit" id="input" value="Say something else">
+  </form>
+</div>
